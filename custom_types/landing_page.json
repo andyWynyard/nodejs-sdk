@@ -43,12 +43,6 @@
     }
   },
   "Main": {
-    "uid": {
-      "type": "UID",
-      "config": {
-        "label": "Document UID"
-      }
-    },
     "title": {
       "type": "Text",
       "config": {

@@ -1,0 +1,1761 @@
+{
+  "Main": {
+    "title": {
+      "type": "Text",
+      "config": {
+        "label": "Title"
+      }
+    },
+    "items": {
+      "type": "Slices",
+      "fieldset": "Translations",
+      "config": {
+        "choices": {
+          "global": {
+            "type": "Slice",
+            "fieldset": "Global",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "email": {
+                "type": "Text",
+                "config": {
+                  "label": "Email"
+                }
+              },
+              "login": {
+                "type": "Text",
+                "config": {
+                  "label": "Login"
+                }
+              },
+              "firstName": {
+                "type": "Text",
+                "config": {
+                  "label": "First name"
+                }
+              },
+              "lastName": {
+                "type": "Text",
+                "config": {
+                  "label": "Last name"
+                }
+              },
+              "companyName": {
+                "type": "Text",
+                "config": {
+                  "label": "Company name"
+                }
+              },
+              "address1": {
+                "type": "Text",
+                "config": {
+                  "label": "Address 1"
+                }
+              },
+              "city": {
+                "type": "Text",
+                "config": {
+                  "label": "City"
+                }
+              },
+              "zipCode": {
+                "type": "Text",
+                "config": {
+                  "label": "Zip code"
+                }
+              },
+              "country": {
+                "type": "Text",
+                "config": {
+                  "label": "Country"
+                }
+              },
+              "state": {
+                "type": "Text",
+                "config": {
+                  "label": "State"
+                }
+              },
+              "viewAuction": {
+                "type": "Text",
+                "config": {
+                  "label": "View Auction"
+                }
+              },
+              "upcoming": {
+                "type": "Text",
+                "config": {
+                  "label": "Upcoming"
+                }
+              },
+              "viewPreview": {
+                "type": "Text",
+                "config": {
+                  "label": "View Preview"
+                }
+              },
+              "privacyPolicy": {
+                "type": "Text",
+                "config": {
+                  "label": "Privacy Policy"
+                }
+              },
+              "termsOfService": {
+                "type": "Text",
+                "config": {
+                  "label": "Terms of Service"
+                }
+              },
+              "thisSiteIsProtectedByReCaptchaAndTheGoogleGooglePrivacyAndGoogleTermsApply": {
+                "type": "Text",
+                "config": {
+                  "label": "This site is protected by reCAPTCHA and the Google ${ googlePrivacy } and ${ googleTerms } apply."
+                }
+              },
+              "poweredByPoweredByLogo": {
+                "type": "Text",
+                "config": {
+                  "label": "Powered by ${ poweredByLogo }"
+                }
+              },
+              "softwareCopyrightCurrentYearSkeletonAllRightsReserved": {
+                "type": "Text",
+                "config": {
+                  "label": "© Software Copyright ${ currentYear } Skeleton. All rights reserved."
+                }
+              },
+              "overview": {
+                "type": "Text",
+                "config": {
+                  "label": "Overview"
+                }
+              },
+              "bids": {
+                "type": "Text",
+                "config": {
+                  "label": "Bids"
+                }
+              },
+              "favorites": {
+                "type": "Text",
+                "config": {
+                  "label": "Favorites"
+                }
+              },
+              "invoices": {
+                "type": "Text",
+                "config": {
+                  "label": "Invoices"
+                }
+              },
+              "addresses": {
+                "type": "Text",
+                "config": {
+                  "label": "Addresses"
+                }
+              },
+              "settings": {
+                "type": "Text",
+                "config": {
+                  "label": "Settings"
+                }
+              },
+              "register": {
+                "type": "Text",
+                "config": {
+                  "label": "Register"
+                }
+              },
+              "closeMenu": {
+                "type": "Text",
+                "config": {
+                  "label": "Close menu"
+                }
+              },
+              "openMenu": {
+                "type": "Text",
+                "config": {
+                  "label": "Open menu"
+                }
+              },
+              "logout": {
+                "type": "Text",
+                "config": {
+                  "label": "Logout"
+                }
+              },
+              "viewLot": {
+                "type": "Text",
+                "config": {
+                  "label": "View lot"
+                }
+              },
+              "price": {
+                "type": "Text",
+                "config": {
+                  "label": "Price"
+                }
+              },
+              "estimate": {
+                "type": "Text",
+                "config": {
+                  "label": "Estimate"
+                }
+              },
+              "preview": {
+                "type": "Text",
+                "config": {
+                  "label": "Preview"
+                }
+              },
+              "extended": {
+                "type": "Text",
+                "config": {
+                  "label": "Extended"
+                }
+              },
+              "closed": {
+                "type": "Text",
+                "config": {
+                  "label": "Closed"
+                }
+              },
+              "live": {
+                "type": "Text",
+                "config": {
+                  "label": "Live"
+                }
+              },
+              "bidCountBid": {
+                "type": "Text",
+                "config": {
+                  "label": "${ bidCount } bid"
+                }
+              },
+              "bidCountBids": {
+                "type": "Text",
+                "config": {
+                  "label": "${ bidCount } bids"
+                }
+              },
+              "auctionIsClosed": {
+                "type": "Text",
+                "config": {
+                  "label": "Auction is closed"
+                }
+              },
+              "endTimeHasBeenExtended": {
+                "type": "Text",
+                "config": {
+                  "label": "End time has been extended"
+                }
+              },
+              "youAreTheHighBidder": {
+                "type": "Text",
+                "config": {
+                  "label": "You are the high bidder"
+                }
+              },
+              "sorryYouHaveBeenOutbidOnThisLot": {
+                "type": "Text",
+                "config": {
+                  "label": "Sorry you have been outbid on this lot"
+                }
+              },
+              "minimumBidMinBid": {
+                "type": "Text",
+                "config": {
+                  "label": "Minimum bid ${ minBid }"
+                }
+              },
+              "yourMaxBidLastBidAmount": {
+                "type": "Text",
+                "config": {
+                  "label": "Your max bid ${ lastBidAmount }"
+                }
+              },
+              "yourBidLastBidAmount": {
+                "type": "Text",
+                "config": {
+                  "label": "Your bid ${ lastBidAmount }"
+                }
+              },
+              "dimensions": {
+                "type": "Text",
+                "config": {
+                  "label": "Dimensions"
+                }
+              },
+              "condition": {
+                "type": "Text",
+                "config": {
+                  "label": "Condition"
+                }
+              },
+              "weight": {
+                "type": "Text",
+                "config": {
+                  "label": "Weight"
+                }
+              },
+              "description": {
+                "type": "Text",
+                "config": {
+                  "label": "Description"
+                }
+              },
+              "yes": {
+                "type": "Text",
+                "config": {
+                  "label": "Yes"
+                }
+              },
+              "watchersIsWatchingThisLot": {
+                "type": "Text",
+                "config": {
+                  "label": "${ watchers } is watching this lot"
+                }
+              },
+              "watchersAreWatchingThisLot": {
+                "type": "Text",
+                "config": {
+                  "label": "${ watchers } are watching this lot"
+                }
+              },
+              "fees": {
+                "type": "Text",
+                "config": {
+                  "label": "Fees"
+                }
+              },
+              "shipping": {
+                "type": "Text",
+                "config": {
+                  "label": "Shipping"
+                }
+              },
+              "met": {
+                "type": "Text",
+                "config": {
+                  "label": "Met"
+                }
+              },
+              "notMet": {
+                "type": "Text",
+                "config": {
+                  "label": "Not Met"
+                }
+              },
+              "outbid": {
+                "type": "Text",
+                "config": {
+                  "label": "Outbid"
+                }
+              },
+              "yourBid": {
+                "type": "Text",
+                "config": {
+                  "label": "Your bid"
+                }
+              },
+              "currentBid": {
+                "type": "Text",
+                "config": {
+                  "label": "Current bid"
+                }
+              },
+              "info": {
+                "type": "Text",
+                "config": {
+                  "label": "Info"
+                }
+              },
+              "close": {
+                "type": "Text",
+                "config": {
+                  "label": "Close"
+                }
+              },
+              "billingInformation": {
+                "type": "Text",
+                "config": {
+                  "label": "Billing information"
+                }
+              },
+              "shippingInformation": {
+                "type": "Text",
+                "config": {
+                  "label": "Shipping information"
+                }
+              },
+              "save": {
+                "type": "Text",
+                "config": {
+                  "label": "Save"
+                }
+              },
+              "username": {
+                "type": "Text",
+                "config": {
+                  "label": "Username"
+                }
+              },
+              "dayPhone": {
+                "type": "Text",
+                "config": {
+                  "label": "Day phone"
+                }
+              },
+              "eveningPhone": {
+                "type": "Text",
+                "config": {
+                  "label": "Evening phone"
+                }
+              },
+              "cellPhone": {
+                "type": "Text",
+                "config": {
+                  "label": "Cell phone"
+                }
+              },
+              "company": {
+                "type": "Text",
+                "config": {
+                  "label": "Company"
+                }
+              },
+              "vatNumber": {
+                "type": "Text",
+                "config": {
+                  "label": "VAT number"
+                }
+              },
+              "newsletters": {
+                "type": "Text",
+                "config": {
+                  "label": "Newsletters"
+                }
+              },
+              "biddingEmails": {
+                "type": "Text",
+                "config": {
+                  "label": "Bidding emails"
+                }
+              },
+              "invoice": {
+                "type": "Text",
+                "config": {
+                  "label": "Invoice #"
+                }
+              },
+              "invoiceDate": {
+                "type": "Text",
+                "config": {
+                  "label": "Invoice date"
+                }
+              },
+              "invoiceAmount": {
+                "type": "Text",
+                "config": {
+                  "label": "Invoice amount"
+                }
+              },
+              "dueDate": {
+                "type": "Text",
+                "config": {
+                  "label": "Due date"
+                }
+              },
+              "pay": {
+                "type": "Text",
+                "config": {
+                  "label": "Pay"
+                }
+              },
+              "openAuctionInvoices": {
+                "type": "Text",
+                "config": {
+                  "label": "Open auction invoices"
+                }
+              },
+              "youHaveNoOpenInvoices": {
+                "type": "Text",
+                "config": {
+                  "label": "You have no open invoices"
+                }
+              },
+              "earlierAuctionInvoices": {
+                "type": "Text",
+                "config": {
+                  "label": "Earlier auction invoices"
+                }
+              },
+              "youHaveNoEarlierInvoices": {
+                "type": "Text",
+                "config": {
+                  "label": "You have no earlier invoices"
+                }
+              },
+              "noBids": {
+                "type": "Text",
+                "config": {
+                  "label": "No bids"
+                }
+              },
+              "forgottenPassword": {
+                "type": "Text",
+                "config": {
+                  "label": "Forgotten password"
+                }
+              },
+              "resetPassword": {
+                "type": "Text",
+                "config": {
+                  "label": "Reset password"
+                }
+              },
+              "passwordsMustMatch": {
+                "type": "Text",
+                "config": {
+                  "label": "Passwords must match"
+                }
+              },
+              "enterANewPassword": {
+                "type": "Text",
+                "config": {
+                  "label": "Enter a new password"
+                }
+              },
+              "newPassword": {
+                "type": "Text",
+                "config": {
+                  "label": "New Password"
+                }
+              },
+              "confirmPassword": {
+                "type": "Text",
+                "config": {
+                  "label": "Confirm Password"
+                }
+              },
+              "updatePassword": {
+                "type": "Text",
+                "config": {
+                  "label": "Update password"
+                }
+              },
+              "youMustAcceptTheTermsAndAuctionRules": {
+                "type": "Text",
+                "config": {
+                  "label": "You must accept the Terms and Auction rules"
+                }
+              },
+              "logIn": {
+                "type": "Text",
+                "config": {
+                  "label": "Log in"
+                }
+              },
+              "termsAndAuctionRules": {
+                "type": "Text",
+                "config": {
+                  "label": "Terms and Auction rules"
+                }
+              },
+              "alreadyHaveAnAccountLoginButton": {
+                "type": "Text",
+                "config": {
+                  "label": "Already have an account? ${ loginButton }"
+                }
+              },
+              "generalInformation": {
+                "type": "Text",
+                "config": {
+                  "label": "General information"
+                }
+              },
+              "password": {
+                "type": "Text",
+                "config": {
+                  "label": "Password"
+                }
+              },
+              "sameAddressForShipping": {
+                "type": "Text",
+                "config": {
+                  "label": "Same address for shipping"
+                }
+              },
+              "receiveOutbidNotifications": {
+                "type": "Text",
+                "config": {
+                  "label": "Receive outbid notifications"
+                }
+              },
+              "iAcceptTheTermsLink": {
+                "type": "Text",
+                "config": {
+                  "label": "I accept the ${ termsLink }"
+                }
+              },
+              "iAcceptTheTermsAndConditions": {
+                "type": "Text",
+                "config": {
+                  "label": "I accept the terms and conditions"
+                }
+              },
+              "back": {
+                "type": "Text",
+                "config": {
+                  "label": "Back"
+                }
+              },
+              "next": {
+                "type": "Text",
+                "config": {
+                  "label": "Next"
+                }
+              },
+              "no": {
+                "type": "Text",
+                "config": {
+                  "label": "No"
+                }
+              },
+              "myAccount": {
+                "type": "Text",
+                "config": {
+                  "label": "My account"
+                }
+              },
+              "youHaveNoBidsAtTheMoment": {
+                "type": "Text",
+                "config": {
+                  "label": "You have no bids at the moment."
+                }
+              },
+              "youHaveNoFavoritesAtTheMoment": {
+                "type": "Text",
+                "config": {
+                  "label": "You have no favorites at the moment."
+                }
+              },
+              "invoicesInvoiceIndicator": {
+                "type": "Text",
+                "config": {
+                  "label": "Invoices ${ invoiceIndicator }"
+                }
+              },
+              "dontHaveAnAccountYetRegisterLink": {
+                "type": "Text",
+                "config": {
+                  "label": "Don't have an account yet? ${ registerLink }"
+                }
+              },
+              "forgotPassword": {
+                "type": "Text",
+                "config": {
+                  "label": "Forgot password?"
+                }
+              },
+              "forgottenUsername": {
+                "type": "Text",
+                "config": {
+                  "label": "Forgotten username"
+                }
+              },
+              "pleaseEnterYourEmailAndWeWillSendYouYourUsername": {
+                "type": "Text",
+                "config": {
+                  "label": "Please enter your email and we will send you your username."
+                }
+              },
+              "confirm": {
+                "type": "Text",
+                "config": {
+                  "label": "Confirm"
+                }
+              },
+              "payment": {
+                "type": "Text",
+                "config": {
+                  "label": "Payment"
+                }
+              },
+              "pleaseEnterYourPaymentDetailsToPayTheInvoice": {
+                "type": "Text",
+                "config": {
+                  "label": "Please enter your payment details to pay the invoice."
+                }
+              },
+              "cardNumber": {
+                "type": "Text",
+                "config": {
+                  "label": "Card number"
+                }
+              },
+              "cardExpiry": {
+                "type": "Text",
+                "config": {
+                  "label": "Card expiry"
+                }
+              },
+              "cardCvc": {
+                "type": "Text",
+                "config": {
+                  "label": "Card Cvc"
+                }
+              },
+              "cancel": {
+                "type": "Text",
+                "config": {
+                  "label": "Cancel"
+                }
+              },
+              "thisFunctionHasNotBeenConfiguredProperly": {
+                "type": "Text",
+                "config": {
+                  "label": "This function has not been configured properly."
+                }
+              },
+              "lotEnds": {
+                "type": "Text",
+                "config": {
+                  "label": "Lot ends"
+                }
+              },
+              "lotEnded": {
+                "type": "Text",
+                "config": {
+                  "label": "Lot ended"
+                }
+              },
+              "vatIsApplicableAndWillBeAddedOnToTheHammerPrice": {
+                "type": "Text",
+                "config": {
+                  "label": "VAT is applicable and will be added on to the hammer price"
+                }
+              },
+              "quantity": {
+                "type": "Text",
+                "config": {
+                  "label": "Quantity"
+                }
+              },
+              "quantityPc": {
+                "type": "Text",
+                "config": {
+                  "label": "${ quantity } pc"
+                }
+              },
+              "quantityPcs": {
+                "type": "Text",
+                "config": {
+                  "label": "${ quantity } pcs"
+                }
+              },
+              "viewCertificate": {
+                "type": "Text",
+                "config": {
+                  "label": "View certificate"
+                }
+              },
+              "bidBidName": {
+                "type": "Text",
+                "config": {
+                  "label": "Bid ${ bidName }"
+                }
+              },
+              "loginToBid": {
+                "type": "Text",
+                "config": {
+                  "label": "Login to bid"
+                }
+              },
+              "auction": {
+                "type": "Text",
+                "config": {
+                  "label": "Auction"
+                }
+              },
+              "store": {
+                "type": "Text",
+                "config": {
+                  "label": "Store"
+                }
+              },
+              "catalog": {
+                "type": "Text",
+                "config": {
+                  "label": "Catalog"
+                }
+              },
+              "buy": {
+                "type": "Text",
+                "config": {
+                  "label": "Buy"
+                }
+              },
+              "placeMaxBid": {
+                "type": "Text",
+                "config": {
+                  "label": "Place Max bid"
+                }
+              },
+              "itemsPerPageItemsCount": {
+                "type": "Text",
+                "config": {
+                  "label": "Items per page ${ itemsCount }"
+                }
+              },
+              "pages": {
+                "type": "Text",
+                "config": {
+                  "label": "Pages"
+                }
+              },
+              "clearFilters": {
+                "type": "Text",
+                "config": {
+                  "label": "Clear filters"
+                }
+              },
+              "search": {
+                "type": "Text",
+                "config": {
+                  "label": "Search"
+                }
+              },
+              "applyFilter": {
+                "type": "Text",
+                "config": {
+                  "label": "Apply filter"
+                }
+              },
+              "category": {
+                "type": "Text",
+                "config": {
+                  "label": "Category "
+                }
+              },
+              "buyersPremiumBuyersPremium": {
+                "type": "Text",
+                "config": {
+                  "label": "Buyers Premium ${ buyersPremium }% "
+                }
+              },
+              "hammerFeeHammerFee": {
+                "type": "Text",
+                "config": {
+                  "label": "Hammer fee: ${ hammerFee }"
+                }
+              },
+              "termsAuctionRules": {
+                "type": "Text",
+                "config": {
+                  "label": "Terms & Auction Rules"
+                }
+              },
+              "bidProgression": {
+                "type": "Text",
+                "config": {
+                  "label": "Bid progression"
+                }
+              },
+              "listOfBidIncrements": {
+                "type": "Text",
+                "config": {
+                  "label": "List of bid increments"
+                }
+              },
+              "auctionInformation": {
+                "type": "Text",
+                "config": {
+                  "label": "Auction Information"
+                }
+              },
+              "weAreExperiencingProblemsWithPaymentsAtTheMoment": {
+                "type": "Text",
+                "config": {
+                  "label": "We are experiencing problems with payments at the moment."
+                }
+              },
+              "pleaseTryAgainLater": {
+                "type": "Text",
+                "config": {
+                  "label": "Please try again later."
+                }
+              },
+              "error": {
+                "type": "Text",
+                "config": {
+                  "label": "Error"
+                }
+              },
+              "auctionCalendar": {
+                "type": "Text",
+                "config": {
+                  "label": "Auction calendar"
+                }
+              },
+              "pastAuctions": {
+                "type": "Text",
+                "config": {
+                  "label": "Past auctions"
+                }
+              },
+              "startingBid": {
+                "type": "Text",
+                "config": {
+                  "label": "Starting bid"
+                }
+              },
+              "lowestLotNumber": {
+                "type": "Text",
+                "config": {
+                  "label": "Lowest lot number"
+                }
+              },
+              "highestLotNumber": {
+                "type": "Text",
+                "config": {
+                  "label": "Highest lot number"
+                }
+              },
+              "lowestBid": {
+                "type": "Text",
+                "config": {
+                  "label": "Lowest bid"
+                }
+              },
+              "highestBid": {
+                "type": "Text",
+                "config": {
+                  "label": "Highest bid"
+                }
+              },
+              "mostWatched": {
+                "type": "Text",
+                "config": {
+                  "label": "Most watched"
+                }
+              },
+              "yourBidHasBeenPlaced": {
+                "type": "Text",
+                "config": {
+                  "label": "Your bid has been placed."
+                }
+              },
+              "yourBidCouldNotBePlaced": {
+                "type": "Text",
+                "config": {
+                  "label": "Your bid could not be placed."
+                }
+              },
+              "invalidPhoneNumber": {
+                "type": "Text",
+                "config": {
+                  "label": "Invalid phone number"
+                }
+              },
+              "thisIsNotAValidVatNumber": {
+                "type": "Text",
+                "config": {
+                  "label": "This is not a valid VAT number"
+                }
+              },
+              "theVatNumberDoesNotMatchTheCompanyNameShouldBeName": {
+                "type": "Text",
+                "config": {
+                  "label": "The VAT number does not match the company name. Should be ${ name }"
+                }
+              },
+              "thankYouForSubscribingToOurNewsletter": {
+                "type": "Text",
+                "config": {
+                  "label": "Thank you for subscribing to our newsletter"
+                }
+              },
+              "submit": {
+                "type": "Text",
+                "config": {
+                  "label": "Submit"
+                }
+              },
+              "finalBid": {
+                "type": "Text",
+                "config": {
+                  "label": "Final bid"
+                }
+              },
+              "unsold": {
+                "type": "Text",
+                "config": {
+                  "label": "Unsold"
+                }
+              },
+              "latestBidHighBidStr": {
+                "type": "Text",
+                "config": {
+                  "label": "Latest bid: ${ highBidStr }"
+                }
+              },
+              "noBidsYet": {
+                "type": "Text",
+                "config": {
+                  "label": "No bids yet"
+                }
+              },
+              "askingBidStr": {
+                "type": "Text",
+                "config": {
+                  "label": "Asking: ${ bidStr }"
+                }
+              },
+              "bidBidAmountStr": {
+                "type": "Text",
+                "config": {
+                  "label": "Bid ${ bidAmountStr }"
+                }
+              },
+              "hammerFeeHammerFeeStr": {
+                "type": "Text",
+                "config": {
+                  "label": "Hammer fee: ${ hammerFeeStr }"
+                }
+              },
+              "yourMaxBidLastBidStr": {
+                "type": "Text",
+                "config": {
+                  "label": "Your max bid ${ lastBidStr }"
+                }
+              },
+              "yourBidLastBidStr": {
+                "type": "Text",
+                "config": {
+                  "label": "Your bid ${ lastBidStr }"
+                }
+              },
+              "nextUp": {
+                "type": "Text",
+                "config": {
+                  "label": "Next up"
+                }
+              },
+              "fairWarning": {
+                "type": "Text",
+                "config": {
+                  "label": "Fair warning"
+                }
+              },
+              "name": {
+                "type": "Text",
+                "config": {
+                  "label": "Name"
+                }
+              },
+              "message": {
+                "type": "Text",
+                "config": {
+                  "label": "Message"
+                }
+              },
+              "send": {
+                "type": "Text",
+                "config": {
+                  "label": "Send"
+                }
+              },
+              "yourMessageHasBeenSubmitted": {
+                "type": "Text",
+                "config": {
+                  "label": "Your message has been submitted"
+                }
+              },
+              "sendAnother": {
+                "type": "Text",
+                "config": {
+                  "label": "Send another"
+                }
+              },
+              "emailAddress": {
+                "type": "Text",
+                "config": {
+                  "label": "Email address"
+                }
+              },
+              "daysD": {
+                "type": "Text",
+                "config": {
+                  "label": "${ days }d"
+                }
+              },
+              "hoursH": {
+                "type": "Text",
+                "config": {
+                  "label": "${ hours }h"
+                }
+              },
+              "minutesFormattedM": {
+                "type": "Text",
+                "config": {
+                  "label": "${ minutesFormatted }m"
+                }
+              },
+              "secondsFormattedS": {
+                "type": "Text",
+                "config": {
+                  "label": "${ secondsFormatted }s"
+                }
+              },
+              "daysDay": {
+                "type": "Text",
+                "config": {
+                  "label": "${ days } day"
+                }
+              },
+              "daysDays": {
+                "type": "Text",
+                "config": {
+                  "label": "${ days } days"
+                }
+              },
+              "hoursHour": {
+                "type": "Text",
+                "config": {
+                  "label": "${ hours } hour"
+                }
+              },
+              "hoursHours": {
+                "type": "Text",
+                "config": {
+                  "label": "${ hours } hours"
+                }
+              },
+              "minutesFormattedMinute": {
+                "type": "Text",
+                "config": {
+                  "label": "${ minutesFormatted } minute"
+                }
+              },
+              "minutesFormattedMinutes": {
+                "type": "Text",
+                "config": {
+                  "label": "${ minutesFormatted } minutes"
+                }
+              },
+              "secondsFormattedSecond": {
+                "type": "Text",
+                "config": {
+                  "label": "${ secondsFormatted } second"
+                }
+              },
+              "secondsFormattedSeconds": {
+                "type": "Text",
+                "config": {
+                  "label": "${ secondsFormatted } seconds"
+                }
+              },
+              "lot": {
+                "type": "Text",
+                "config": {
+                  "label": "Lot"
+                }
+              },
+              "yearsY": {
+                "type": "Text",
+                "config": {
+                  "label": "${ years }y"
+                }
+              },
+              "yearsYear": {
+                "type": "Text",
+                "config": {
+                  "label": "${ years } year"
+                }
+              },
+              "yearsYears": {
+                "type": "Text",
+                "config": {
+                  "label": "${ years } years"
+                }
+              },
+              "companyRegistration": {
+                "type": "Text",
+                "config": {
+                  "label": "Company registration"
+                }
+              },
+              "starts": {
+                "type": "Text",
+                "config": {
+                  "label": "Starts:"
+                }
+              },
+              "endsFrom": {
+                "type": "Text",
+                "config": {
+                  "label": "Ends from:"
+                }
+              },
+              "withdrawn": {
+                "type": "Text",
+                "config": {
+                  "label": "Withdrawn"
+                }
+              },
+              "invoiceNumber": {
+                "type": "Text",
+                "config": {
+                  "label": "Invoice number"
+                }
+              },
+              "total": {
+                "type": "Text",
+                "config": {
+                  "label": "Total"
+                }
+              },
+              "taxRate": {
+                "type": "Text",
+                "config": {
+                  "label": "Tax rate"
+                }
+              },
+              "subtotal": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtotal"
+                }
+              },
+              "tax": {
+                "type": "Text",
+                "config": {
+                  "label": "Tax"
+                }
+              },
+              "liveStarts": {
+                "type": "Text",
+                "config": {
+                  "label": "Live starts:"
+                }
+              },
+              "moreReading": {
+                "type": "Text",
+                "config": {
+                  "label": "More reading"
+                }
+              },
+              "liveAuctionIsAboutToStart": {
+                "type": "Text",
+                "config": {
+                  "label": "Live auction is about to start."
+                }
+              },
+              "biddingIsPaused": {
+                "type": "Text",
+                "config": {
+                  "label": "Bidding is paused"
+                }
+              },
+              "lastCall": {
+                "type": "Text",
+                "config": {
+                  "label": "Last call"
+                }
+              },
+              "thankYou": {
+                "type": "Text",
+                "config": {
+                  "label": "Thank you"
+                }
+              },
+              "pleaseBid": {
+                "type": "Text",
+                "config": {
+                  "label": "Please bid"
+                }
+              },
+              "published": {
+                "type": "Text",
+                "config": {
+                  "label": "Published"
+                }
+              },
+              "readMore": {
+                "type": "Text",
+                "config": {
+                  "label": "Read more"
+                }
+              },
+              "pendingLive": {
+                "type": "Text",
+                "config": {
+                  "label": "Pending Live"
+                }
+              },
+              "paused": {
+                "type": "Text",
+                "config": {
+                  "label": "Paused"
+                }
+              },
+              "itemWithdrawn": {
+                "type": "Text",
+                "config": {
+                  "label": "Item withdrawn"
+                }
+              },
+              "startsSoon": {
+                "type": "Text",
+                "config": {
+                  "label": "Starts soon"
+                }
+              },
+              "ongoing": {
+                "type": "Text",
+                "config": {
+                  "label": "Ongoing"
+                }
+              },
+              "liveBidding": {
+                "type": "Text",
+                "config": {
+                  "label": "Live bidding"
+                }
+              },
+              "thisIsNotAValidTaxPayerId": {
+                "type": "Text",
+                "config": {
+                  "label": "This is not a valid tax payer id "
+                }
+              },
+              "passed": {
+                "type": "Text",
+                "config": {
+                  "label": "passed"
+                }
+              },
+              "taxPayerId": {
+                "type": "Text",
+                "config": {
+                  "label": "Tax payer Id"
+                }
+              },
+              "taxPayerExpireDate": {
+                "type": "Text",
+                "config": {
+                  "label": "Tax payer Expire Date"
+                }
+              },
+              "youHaveTheHighBid": {
+                "type": "Text",
+                "config": {
+                  "label": "You have the high bid"
+                }
+              },
+              "failedToInitiatePaymentPleaseTryAgainLater": {
+                "type": "Text",
+                "config": {
+                  "label": "failed to initiate payment, please try again later."
+                }
+              },
+              "failedToPayInvoicePleaseTryAgainLater": {
+                "type": "Text",
+                "config": {
+                  "label": "failed to pay invoice, please try again later."
+                }
+              },
+              "cvc": {
+                "type": "Text",
+                "config": {
+                  "label": "CVC"
+                }
+              },
+              "yourBidIsPendingApproval": {
+                "type": "Text",
+                "config": {
+                  "label": "Your bid is pending approval."
+                }
+              },
+              "latestBid": {
+                "type": "Text",
+                "config": {
+                  "label": "Latest bid"
+                }
+              },
+              "opensAt": {
+                "type": "Text",
+                "config": {
+                  "label": "Opens at"
+                }
+              },
+              "goToLiveAuction": {
+                "type": "Text",
+                "config": {
+                  "label": "Go to live auction"
+                }
+              },
+              "yourBidIsPending": {
+                "type": "Text",
+                "config": {
+                  "label": "Your bid is pending"
+                }
+              },
+              "yourBidOfPendingBidStrIsPending": {
+                "type": "Text",
+                "config": {
+                  "label": "Your bid of ${ pendingBidStr } is pending"
+                }
+              },
+              "subject": {
+                "type": "Text",
+                "config": {
+                  "label": "Subject"
+                }
+              },
+              "payments": {
+                "type": "Text",
+                "config": {
+                  "label": "Payments"
+                }
+              },
+              "creditcardDetails": {
+                "type": "Text",
+                "config": {
+                  "label": "Creditcard details"
+                }
+              },
+              "creditCardInformationIsRequiredToVerifyYourIdentity": {
+                "type": "Text",
+                "config": {
+                  "label": "Credit card information is required to verify your identity."
+                }
+              },
+              "paymentGatewayNameIsNotImplementedYet": {
+                "type": "Text",
+                "config": {
+                  "label": "${ paymentGateway.name } is not implemented yet."
+                }
+              },
+              "validate": {
+                "type": "Text",
+                "config": {
+                  "label": "Validate"
+                }
+              },
+              "processing": {
+                "type": "Text",
+                "config": {
+                  "label": "Processing"
+                }
+              },
+              "vatVatRate": {
+                "type": "Text",
+                "config": {
+                  "label": "VAT ${ vatRate }% "
+                }
+              },
+              "provenance": {
+                "type": "Text",
+                "config": {
+                  "label": "Provenance"
+                }
+              },
+              "fee": {
+                "type": "Text",
+                "config": {
+                  "label": "Fee "
+                }
+              },
+              "swedish": {
+                "type": "Text",
+                "config": {
+                  "label": "Swedish"
+                }
+              },
+              "english": {
+                "type": "Text",
+                "config": {
+                  "label": "English"
+                }
+              },
+              "german": {
+                "type": "Text",
+                "config": {
+                  "label": "German"
+                }
+              },
+              "french": {
+                "type": "Text",
+                "config": {
+                  "label": "French"
+                }
+              },
+              "spanish": {
+                "type": "Text",
+                "config": {
+                  "label": "Spanish"
+                }
+              },
+              "italian": {
+                "type": "Text",
+                "config": {
+                  "label": "Italian"
+                }
+              },
+              "details": {
+                "type": "Text",
+                "config": {
+                  "label": "Details"
+                }
+              },
+              "reservePrice": {
+                "type": "Text",
+                "config": {
+                  "label": "Reserve price"
+                }
+              },
+              "blind": {
+                "type": "Text",
+                "config": {
+                  "label": "Blind"
+                }
+              },
+              "location": {
+                "type": "Text",
+                "config": {
+                  "label": "Location"
+                }
+              },
+              "notes": {
+                "type": "Text",
+                "config": {
+                  "label": "Notes"
+                }
+              },
+              "placeBid": {
+                "type": "Text",
+                "config": {
+                  "label": "Place bid"
+                }
+              },
+              "reserve": {
+                "type": "Text",
+                "config": {
+                  "label": "Reserve"
+                }
+              },
+              "est": {
+                "type": "Text",
+                "config": {
+                  "label": "Est"
+                }
+              },
+              "hammerFee": {
+                "type": "Text",
+                "config": {
+                  "label": "Hammer Fee "
+                }
+              },
+              "theRequestFailed": {
+                "type": "Text",
+                "config": {
+                  "label": "The request failed"
+                }
+              },
+              "usernameAlreadyInUsePleaseLogIn": {
+                "type": "Text",
+                "config": {
+                  "label": "Username already in use. Please log in."
+                }
+              },
+              "online": {
+                "type": "Text",
+                "config": {
+                  "label": "Online"
+                }
+              },
+              "usernameThisCouldBeEitherYourUsernameOrYourEmail": {
+                "type": "Text",
+                "config": {
+                  "label": "Username (This could be either your username or your email)"
+                }
+              },
+              "invalidField": {
+                "type": "Text",
+                "config": {
+                  "label": "Invalid field"
+                }
+              },
+              "requiredField": {
+                "type": "Text",
+                "config": {
+                  "label": "Required field"
+                }
+              },
+              "invalidEmail": {
+                "type": "Text",
+                "config": {
+                  "label": "Invalid email"
+                }
+              },
+              "phone": {
+                "type": "Text",
+                "config": {
+                  "label": "Phone"
+                }
+              },
+              "bidAtAmountStrOnLotLotNumberWasRejected": {
+                "type": "Text",
+                "config": {
+                  "label": "Bid at ${ amountStr } on lot #${ lotNumber } was rejected"
+                }
+              },
+              "telphone": {
+                "type": "Text",
+                "config": {
+                  "label": "Telphone"
+                }
+              },
+              "floor": {
+                "type": "Text",
+                "config": {
+                  "label": "Floor"
+                }
+              },
+              "processingPaymentItCanTakeUpTo24HoursUntilThePaymentIsFullyProcessed": {
+                "type": "Text",
+                "config": {
+                  "label": "Processing payment, it can take up to 24 hours until the payment is fully processed."
+                }
+              },
+              "areYouSureYouWantToPlaceThisBid": {
+                "type": "Text",
+                "config": {
+                  "label": "Are you sure you want to place this bid?"
+                }
+              },
+              "hammerFeeValueIncVat": {
+                "type": "Text",
+                "config": {
+                  "label": "${ hammerFeeValue } (inc. VAT)"
+                }
+              },
+              "lotLotNumberSoldForAmountStr": {
+                "type": "Text",
+                "config": {
+                  "label": "Lot #${ lotNumber } sold for ${ amountStr }"
+                }
+              },
+              "lotLotNumberStartsAtAmountStr": {
+                "type": "Text",
+                "config": {
+                  "label": "Lot #${ lotNumber } starts at ${ amountStr }"
+                }
+              },
+              "inCategory": {
+                "type": "Text",
+                "config": {
+                  "label": "In category"
+                }
+              },
+              "consigner": {
+                "type": "Text",
+                "config": {
+                  "label": "Consigner"
+                }
+              },
+              "youHaveUsedUsedBidLimitOfYourBidLimitBidLimit": {
+                "type": "Text",
+                "config": {
+                  "label": "You have used ${ usedBidLimit } of your ${ bidLimit } bid limit"
+                }
+              },
+              "droitDeSuite": {
+                "type": "Text",
+                "config": {
+                  "label": "Droit de suite:"
+                }
+              },
+              "status": {
+                "type": "Text",
+                "config": {
+                  "label": "Status"
+                }
+              },
+              "soldItemSoldDate": {
+                "type": "Text",
+                "config": {
+                  "label": "Sold ${ itemSoldDate }"
+                }
+              },
+              "notSold": {
+                "type": "Text",
+                "config": {
+                  "label": "Not sold"
+                }
+              },
+              "hammerPrice": {
+                "type": "Text",
+                "config": {
+                  "label": "Hammer price"
+                }
+              },
+              "dateAdded": {
+                "type": "Text",
+                "config": {
+                  "label": "Date added"
+                }
+              },
+              "minPrice": {
+                "type": "Text",
+                "config": {
+                  "label": "Min price"
+                }
+              },
+              "comissionModel": {
+                "type": "Text",
+                "config": {
+                  "label": "Comission model"
+                }
+              },
+              "comissionAmount": {
+                "type": "Text",
+                "config": {
+                  "label": "Comission amount"
+                }
+              },
+              "hammerFeeValueExTaxes": {
+                "type": "Text",
+                "config": {
+                  "label": "${ hammerFeeValue } (ex. taxes)"
+                }
+              },
+              "monthsM": {
+                "type": "Text",
+                "config": {
+                  "label": "${ months }m"
+                }
+              },
+              "monthsMonth": {
+                "type": "Text",
+                "config": {
+                  "label": "${ months } month"
+                }
+              },
+              "monthsMonths": {
+                "type": "Text",
+                "config": {
+                  "label": "${ months } months"
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  }
+}

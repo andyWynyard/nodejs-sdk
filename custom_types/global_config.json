@@ -1,0 +1,1150 @@
+{
+  "Main": {
+    "title": {
+      "type": "Text",
+      "config": {
+        "label": "Text"
+      }
+    },
+    "longTimestampFormat": {
+      "type": "Text",
+      "config": {
+        "label": "Long timestamp format"
+      }
+    }
+  },
+  "Header": {
+    "siteLogo": {
+      "type": "Image",
+      "config": {
+        "label": "Site Logo",
+        "thumbnails": []
+      }
+    },
+    "siteLogoLink": {
+      "type": "Link",
+      "config": {
+        "label": "Site Logo"
+      }
+    },
+    "siteLogoHeight": {
+      "type": "Number",
+      "config": {
+        "label": "Site Logo Height"
+      }
+    },
+    "showSearch": {
+      "type": "Select",
+      "config": {
+        "label": "Show search",
+        "options": [
+          "False",
+          "True"
+        ],
+        "default_value": "False"
+      }
+    },
+    "showMyAccount": {
+      "type": "Select",
+      "config": {
+        "label": "Show my account",
+        "options": [
+          "False",
+          "True"
+        ],
+        "default_value": "False"
+      }
+    },
+    "showLanguageSelector": {
+      "type": "Select",
+      "config": {
+        "label": "Show language selector",
+        "options": [
+          "False",
+          "True"
+        ],
+        "default_value": "False"
+      }
+    },
+    "headerLinks": {
+      "type": "Group",
+      "config": {
+        "label": "Header links",
+        "fields": {
+          "linkLabel": {
+            "type": "Text",
+            "config": {
+              "label": "Link label"
+            }
+          },
+          "link": {
+            "type": "Link",
+            "config": {
+              "label": "Link"
+            }
+          }
+        }
+      }
+    },
+    "headerMenu": {
+      "type": "Slices",
+      "fieldset": "Header menu",
+      "config": {
+        "choices": {
+          "link": {
+            "type": "Slice",
+            "fieldset": "Link",
+            "description": "Links to a page",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "linkLabel": {
+                "type": "Text",
+                "config": {
+                  "label": "Link label"
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "subMenu": {
+            "type": "Slice",
+            "fieldset": "Sub Menu",
+            "description": "A sub menu with many links",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "linkLabel": {
+                "type": "Text",
+                "config": {
+                  "label": "Link label"
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link"
+                }
+              },
+              "columns": {
+                "type": "Number",
+                "config": {
+                  "label": "Number of columns in menu"
+                }
+              },
+              "columnWidth": {
+                "type": "Number",
+                "config": {
+                  "label": "Width of menu columns"
+                }
+              }
+            },
+            "repeat": {
+              "linkLabel": {
+                "type": "Text",
+                "config": {
+                  "label": "Link label"
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Settings": {
+    "showBidConfirmModal": {
+      "type": "Select",
+      "config": {
+        "label": "Show Bid Confirm Modal",
+        "options": [
+          "True",
+          "False"
+        ],
+        "default_value": "True"
+      }
+    },
+    "name": {
+      "type": "Text",
+      "config": {
+        "label": "Name"
+      }
+    },
+    "shortName": {
+      "type": "Text",
+      "config": {
+        "label": "Short name"
+      }
+    },
+    "faviconImage": {
+      "type": "Image",
+      "config": {
+        "label": "Favicon image",
+        "constraint": {
+          "width": 512,
+          "height": 512
+        },
+        "thumbnails": []
+      }
+    },
+    "faviconIco": {
+      "type": "Image",
+      "config": {
+        "label": "Favicon ico",
+        "thumbnails": []
+      }
+    }
+  },
+  "Footer": {
+    "footerLinks": {
+      "type": "Group",
+      "config": {
+        "label": "Footer links",
+        "fields": {
+          "linkLabel": {
+            "type": "Text",
+            "config": {
+              "label": "Link label"
+            }
+          },
+          "link": {
+            "type": "Link",
+            "config": {
+              "label": "Link"
+            }
+          }
+        }
+      }
+    },
+    "footerIcon": {
+      "type": "Image",
+      "config": {
+        "label": "Footer icon",
+        "thumbnails": []
+      }
+    },
+    "footerText": {
+      "type": "StructuredText",
+      "config": {
+        "label": "Footer text",
+        "multi": "paragraph, strong, em"
+      }
+    },
+    "footerTag": {
+      "type": "Text",
+      "config": {
+        "label": "Footer tag"
+      }
+    },
+    "copyright": {
+      "type": "Text",
+      "config": {
+        "label": "Copyright"
+      }
+    },
+    "socialLinks": {
+      "type": "Group",
+      "config": {
+        "label": "Social links",
+        "fields": {
+          "thumbnail": {
+            "type": "Image",
+            "config": {
+              "label": "Thumbnail",
+              "thumbnails": []
+            }
+          },
+          "link": {
+            "type": "Link",
+            "config": {
+              "label": "Link"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Accept cookies": {
+    "cookieInfo": {
+      "type": "StructuredText",
+      "config": {
+        "label": "Cookie info",
+        "single": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item"
+      }
+    }
+  },
+  "Branding": {
+    "brandingFontPrimary": {
+      "type": "Text",
+      "config": {
+        "label": "Primary font (default serif)"
+      }
+    },
+    "brandingFontSecondary": {
+      "type": "Text",
+      "config": {
+        "label": "Secondary font (default sans-serif)"
+      }
+    },
+    "brandingFontImports": {
+      "type": "Group",
+      "config": {
+        "label": "Font imports",
+        "fields": {
+          "url": {
+            "type": "Text",
+            "config": {
+              "label": "Url (example https://use.typekit.net/dce7eoe.css)"
+            }
+          }
+        }
+      }
+    },
+    "brandingColorPrimary": {
+      "type": "Color",
+      "config": {
+        "label": "Color Primary (--color-primary: default #501195)"
+      }
+    },
+    "brandingColorPrimaryHover": {
+      "type": "Color",
+      "config": {
+        "label": "Color Primary Hover (--color-primary-hover: default #6d39b0)"
+      }
+    },
+    "brandingColorPrimarySelected": {
+      "type": "Color",
+      "config": {
+        "label": "Color Primary Selected (--color-primary-selected: default #3c0e70)"
+      }
+    },
+    "brandingColorPrimaryDisabled": {
+      "type": "Color",
+      "config": {
+        "label": "Color Primary Disabled (--color-primary-disabled: default #a585c6)"
+      }
+    },
+    "brandingColorSecondary": {
+      "type": "Color",
+      "config": {
+        "label": "Color Secondary (--color-secondary: default red)"
+      }
+    },
+    "brandingColorSuccess": {
+      "type": "Color",
+      "config": {
+        "label": "Color Success (--color-success: default #1ac985)"
+      }
+    },
+    "brandingColorWarning": {
+      "type": "Color",
+      "config": {
+        "label": "Color Warning (--color-warning: default #fc4646)"
+      }
+    },
+    "brandingFontColor": {
+      "type": "Color",
+      "config": {
+        "label": "Font Color (--font-color: default #333)"
+      }
+    },
+    "brandingFontColorGray": {
+      "type": "Color",
+      "config": {
+        "label": "Font Color Gray (--font-color-gray: default #b3b3b3)"
+      }
+    },
+    "brandingFontColorDarkGray": {
+      "type": "Color",
+      "config": {
+        "label": "Font Color Dark Gray (--font-color-dark-gray: default #444)"
+      }
+    },
+    "brandingFontColorLightGray": {
+      "type": "Color",
+      "config": {
+        "label": "Font Color Light Gray (--font-color-light-gray: default #a6a6a6)"
+      }
+    },
+    "brandingFontColorFooterGray": {
+      "type": "Color",
+      "config": {
+        "label": "Font Color Footer Gray (--font-color-footer-gray: default #343434)"
+      }
+    },
+    "brandingBorderColor": {
+      "type": "Color",
+      "config": {
+        "label": "Border Color (--border-color: default #666)"
+      }
+    },
+    "brandingColorBackgroundDark": {
+      "type": "Color",
+      "config": {
+        "label": "Color Background Dark (--color-background-dark: default #fcfcfc)"
+      }
+    },
+    "brandingColorBackgroundFooter": {
+      "type": "Color",
+      "config": {
+        "label": "Color Background Footer (--color-background-footer: default #f0f0f0)"
+      }
+    },
+    "brandingColorBackgroundFooterDark": {
+      "type": "Color",
+      "config": {
+        "label": "Color Background Footer Dark (--color-background-footer-dark: default #e1e1e1)"
+      }
+    },
+    "brandingColorBackgroundPopoutLight": {
+      "type": "Color",
+      "config": {
+        "label": "Color Background Popout Light (--color-background-popout-light: default #fbfbfb)"
+      }
+    },
+    "brandingColorBackgroundPopoutMiddle": {
+      "type": "Color",
+      "config": {
+        "label": "Color Background Popout Middle (--color-background-popout-middle: default #f3f2f2)"
+      }
+    },
+    "brandingColorBackgroundPopoutDark": {
+      "type": "Color",
+      "config": {
+        "label": "Color Background Popout Dark (--color-background-popout-dark: default #343434)"
+      }
+    },
+    "brandingColorBackgroundHighlight": {
+      "type": "Color",
+      "config": {
+        "label": "Color Background Highlight (--color-background-highlight: default #f8f8f8)"
+      }
+    },
+    "brandingColorBackgroundHighlightHover": {
+      "type": "Color",
+      "config": {
+        "label": "Color Background Highlight Hover (--color-background-highlight-hover: default #f3f3f3)"
+      }
+    },
+    "brandingColorBackground": {
+      "type": "Color",
+      "config": {
+        "label": "Color Background (--color-background: default #ffffff)"
+      }
+    },
+    "brandingCompositions": {
+      "type": "Slices",
+      "fieldset": "Branding Compositions",
+      "config": {
+        "choices": {
+          "header": {
+            "type": "Slice",
+            "fieldset": "Header",
+            "description": "Branding for the header",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "backgroundColorVariable": {
+                "type": "Select",
+                "config": {
+                  "label": "Background predefined color",
+                  "options": [
+                    "color-background",
+                    "font-color",
+                    "font-color-gray",
+                    "font-color-dark-gray",
+                    "font-color-light-gray",
+                    "font-color-footer-gray",
+                    "border-color",
+                    "color-background-dark",
+                    "color-background-footer",
+                    "color-background-footer-dark",
+                    "color-background-popout-light",
+                    "color-background-popout-middle",
+                    "color-background-popout-dark",
+                    "color-background-highlight",
+                    "color-background-highlight-hover",
+                    "color-primary",
+                    "color-primary-hover",
+                    "color-primary-selected",
+                    "color-primary-disabled",
+                    "color-secondary",
+                    "color-success",
+                    "color-warning"
+                  ],
+                  "default_value": "color-background"
+                }
+              },
+              "backgroundColor": {
+                "type": "Color",
+                "config": {
+                  "label": "Background color"
+                }
+              },
+              "foregroundColorVariable": {
+                "type": "Select",
+                "config": {
+                  "label": "Foreground predefined color",
+                  "options": [
+                    "font-color",
+                    "font-color-gray",
+                    "font-color-dark-gray",
+                    "font-color-light-gray",
+                    "font-color-footer-gray",
+                    "border-color",
+                    "color-background-dark",
+                    "color-background-footer",
+                    "color-background-footer-dark",
+                    "color-background-popout-light",
+                    "color-background-popout-middle",
+                    "color-background-popout-dark",
+                    "color-background-highlight",
+                    "color-background-highlight-hover",
+                    "color-background",
+                    "color-primary",
+                    "color-primary-hover",
+                    "color-primary-selected",
+                    "color-primary-disabled",
+                    "color-secondary",
+                    "color-success",
+                    "color-warning"
+                  ],
+                  "default_value": "font-color"
+                }
+              },
+              "foregroundColor": {
+                "type": "Color",
+                "config": {
+                  "label": "Foreground color"
+                }
+              },
+              "foregroundHoverColorVariable": {
+                "type": "Select",
+                "config": {
+                  "label": "Foreground hover predefined color",
+                  "options": [
+                    "color-primary-hover",
+                    "font-color",
+                    "font-color-gray",
+                    "font-color-dark-gray",
+                    "font-color-light-gray",
+                    "font-color-footer-gray",
+                    "border-color",
+                    "color-background-dark",
+                    "color-background-footer",
+                    "color-background-footer-dark",
+                    "color-background-popout-light",
+                    "color-background-popout-middle",
+                    "color-background-popout-dark",
+                    "color-background-highlight",
+                    "color-background-highlight-hover",
+                    "color-background",
+                    "color-primary",
+                    "color-primary-selected",
+                    "color-primary-disabled",
+                    "color-secondary",
+                    "color-success",
+                    "color-warning"
+                  ],
+                  "default_value": "color-primary-hover"
+                }
+              },
+              "foregroundHoverColor": {
+                "type": "Color",
+                "config": {
+                  "label": "Foreground hover color"
+                }
+              },
+              "foregroundActiveColorVariable": {
+                "type": "Select",
+                "config": {
+                  "label": "Foreground active predefined color",
+                  "options": [
+                    "color-primary",
+                    "font-color",
+                    "font-color-gray",
+                    "font-color-dark-gray",
+                    "font-color-light-gray",
+                    "font-color-footer-gray",
+                    "border-color",
+                    "color-background-dark",
+                    "color-background-footer",
+                    "color-background-footer-dark",
+                    "color-background-popout-light",
+                    "color-background-popout-middle",
+                    "color-background-popout-dark",
+                    "color-background-highlight",
+                    "color-background-highlight-hover",
+                    "color-background",
+                    "color-primary-hover",
+                    "color-primary-selected",
+                    "color-primary-disabled",
+                    "color-secondary",
+                    "color-success",
+                    "color-warning"
+                  ],
+                  "default_value": "color-primary"
+                }
+              },
+              "foregroundActiveColor": {
+                "type": "Color",
+                "config": {
+                  "label": "Foreground active color"
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  },
+  "Live Auction": {
+    "liveAuctionGridGapDesktop": {
+      "type": "Text",
+      "config": {
+        "label": "Grid gap (css: grid-gap) desktop"
+      }
+    },
+    "liveAuctionGridGapTablet": {
+      "type": "Text",
+      "config": {
+        "label": "Grid gap (css: grid-gap) tablet"
+      }
+    },
+    "liveAuctionGridGapMobile": {
+      "type": "Text",
+      "config": {
+        "label": "Grid gap (css: grid-gap) mobile"
+      }
+    },
+    "liveAuctionGridTemplateColumnsDesktop": {
+      "type": "Text",
+      "config": {
+        "label": "Grid template columns (css: grid-template-columns) desktop"
+      }
+    },
+    "liveAuctionGridTemplateColumnsTablet": {
+      "type": "Text",
+      "config": {
+        "label": "Grid template columns (css: grid-template-columns) tablet"
+      }
+    },
+    "liveAuctionGridTemplateColumnsMobile": {
+      "type": "Text",
+      "config": {
+        "label": "Grid template columns (css: grid-template-columns) mobile"
+      }
+    },
+    "liveAuctionGridTemplateRowsDesktop": {
+      "type": "Text",
+      "config": {
+        "label": "Grid rows (css: grid-template-rows) desktop"
+      }
+    },
+    "liveAuctionGridTemplateRowsTablet": {
+      "type": "Text",
+      "config": {
+        "label": "Grid rows (css: grid-template-rows) tablet"
+      }
+    },
+    "liveAuctionGridTemplateRowsMobile": {
+      "type": "Text",
+      "config": {
+        "label": "Grid rows (css: grid-template-rows) mobile"
+      }
+    },
+    "liveAuctionFinalMessage": {
+      "type": "StructuredText",
+      "config": {
+        "label": "Final message, shown after last lot",
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item"
+      }
+    },
+    "liveAuctionCompositions": {
+      "type": "Slices",
+      "fieldset": "Live auction Compositions",
+      "config": {
+        "choices": {
+          "currentLotDisplay": {
+            "type": "Slice",
+            "fieldset": "Current lot display",
+            "description": "Showcases the current lot",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "gridColumnDesktop": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid column desktop"
+                }
+              },
+              "gridColumnTablet": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid column tablet"
+                }
+              },
+              "gridColumnMobile": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid column mobile"
+                }
+              },
+              "gridRowDesktop": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid row desktop"
+                }
+              },
+              "gridRowTablet": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid row tablet"
+                }
+              },
+              "gridRowMobile": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid row mobile"
+                }
+              },
+              "itemCardConfiguration": {
+                "type": "Link",
+                "config": {
+                  "label": "Item card configuration",
+                  "select": "document",
+                  "customtypes": [
+                    "item_card_configuration"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "bidAction": {
+            "type": "Slice",
+            "fieldset": "Bid action",
+            "description": "Allows the user to place a bid",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "gridColumnDesktop": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid column desktop"
+                }
+              },
+              "gridColumnTablet": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid column tablet"
+                }
+              },
+              "gridColumnMobile": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid column mobile"
+                }
+              },
+              "gridRowDesktop": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid row desktop"
+                }
+              },
+              "gridRowTablet": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid row tablet"
+                }
+              },
+              "gridRowMobile": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid row mobile"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "messageNotice": {
+            "type": "Slice",
+            "fieldset": "Message notice",
+            "description": "Highlights the latest message from the auction house",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "gridColumnDesktop": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid column desktop"
+                }
+              },
+              "gridColumnTablet": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid column tablet"
+                }
+              },
+              "gridColumnMobile": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid column mobile"
+                }
+              },
+              "gridRowDesktop": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid row desktop"
+                }
+              },
+              "gridRowTablet": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid row tablet"
+                }
+              },
+              "gridRowMobile": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid row mobile"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "videoFeed": {
+            "type": "Slice",
+            "fieldset": "Video feed",
+            "description": "Streams the auction live via video",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "gridColumnDesktop": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid column desktop"
+                }
+              },
+              "gridColumnTablet": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid column tablet"
+                }
+              },
+              "gridColumnMobile": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid column mobile"
+                }
+              },
+              "gridRowDesktop": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid row desktop"
+                }
+              },
+              "gridRowTablet": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid row tablet"
+                }
+              },
+              "gridRowMobile": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid row mobile"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "liveMessages": {
+            "type": "Slice",
+            "fieldset": "Live Messages",
+            "description": "Lists the latest auction events",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "gridColumnDesktop": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid column desktop"
+                }
+              },
+              "gridColumnTablet": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid column tablet"
+                }
+              },
+              "gridColumnMobile": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid column mobile"
+                }
+              },
+              "gridRowDesktop": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid row desktop"
+                }
+              },
+              "gridRowTablet": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid row tablet"
+                }
+              },
+              "gridRowMobile": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid row mobile"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "lineUp": {
+            "type": "Slice",
+            "fieldset": "Line up",
+            "description": "Highlights the lots that are next up in line",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "gridColumnDesktop": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid column desktop"
+                }
+              },
+              "gridColumnTablet": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid column tablet"
+                }
+              },
+              "gridColumnMobile": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid column mobile"
+                }
+              },
+              "gridRowDesktop": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid row desktop"
+                }
+              },
+              "gridRowTablet": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid row tablet"
+                }
+              },
+              "gridRowMobile": {
+                "type": "Text",
+                "config": {
+                  "label": "Grid row mobile"
+                }
+              },
+              "itemCardConfiguration": {
+                "type": "Link",
+                "config": {
+                  "label": "Item card configuration",
+                  "select": "document",
+                  "customtypes": [
+                    "item_card_configuration"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  },
+  "Fluid footer": {
+    "fluidFooterColumns": {
+      "type": "Number",
+      "config": {
+        "label": "Columns"
+      }
+    },
+    "fluidFooterColumnsTablet": {
+      "type": "Number",
+      "config": {
+        "label": "Tablet columns"
+      }
+    },
+    "fluidFooterColumnsMobile": {
+      "type": "Number",
+      "config": {
+        "label": "Mobile columns"
+      }
+    },
+    "fluidFooterGridGap": {
+      "type": "Text",
+      "config": {
+        "label": "Grid gap"
+      }
+    },
+    "fluidFooterBody": {
+      "type": "Slices",
+      "fieldset": "Footer body",
+      "config": {
+        "choices": {
+          "text": {
+            "type": "Slice",
+            "fieldset": "Text",
+            "description": "Text",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "header": {
+                "type": "Text",
+                "config": {
+                  "label": "Header"
+                }
+              },
+              "text": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Text",
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item"
+                }
+              },
+              "size": {
+                "type": "Number",
+                "config": {
+                  "label": "Size"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "links": {
+            "type": "Slice",
+            "fieldset": "Links",
+            "description": "Links",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "header": {
+                "type": "Text",
+                "config": {
+                  "label": "Header"
+                }
+              },
+              "size": {
+                "type": "Number",
+                "config": {
+                  "label": "Size"
+                }
+              }
+            },
+            "repeat": {
+              "label": {
+                "type": "Text",
+                "config": {
+                  "label": "Label"
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link"
+                }
+              }
+            }
+          },
+          "socialLinks": {
+            "type": "Slice",
+            "fieldset": "Social Links",
+            "description": "Social Links",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "header": {
+                "type": "Text",
+                "config": {
+                  "label": "Header"
+                }
+              },
+              "size": {
+                "type": "Number",
+                "config": {
+                  "label": "Size"
+                }
+              }
+            },
+            "repeat": {
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link"
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image",
+                  "thumbnails": []
+                }
+              }
+            }
+          },
+          "image": {
+            "type": "Slice",
+            "fieldset": "Image",
+            "description": "Image",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "header": {
+                "type": "Text",
+                "config": {
+                  "label": "Header"
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image",
+                  "thumbnails": []
+                }
+              },
+              "maxWidth": {
+                "type": "Number",
+                "config": {
+                  "label": "Max width"
+                }
+              },
+              "size": {
+                "type": "Number",
+                "config": {
+                  "label": "Size"
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  }
+}

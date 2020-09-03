@@ -1,0 +1,79 @@
+{
+  "SEO": {
+    "seoTitle": {
+      "type": "Text",
+      "config": {
+        "label": "Page title"
+      }
+    },
+    "seoDescription": {
+      "type": "Text",
+      "config": {
+        "label": "Page description"
+      }
+    },
+    "seoBody": {
+      "type": "Slices",
+      "config": {
+        "choices": {
+          "metaField": {
+            "type": "Slice",
+            "fieldset": "Meta field",
+            "description": "Add addition meta info for page",
+            "icon": "search",
+            "display": "list",
+            "non-repeat": {
+              "metaName": {
+                "type": "Text",
+                "config": {
+                  "label": "Meta name"
+                }
+              },
+              "metaContent": {
+                "type": "Text",
+                "config": {
+                  "label": "Meta content"
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  },
+  "Main": {
+    "title": {
+      "type": "Text",
+      "config": {
+        "label": "Title"
+      }
+    },
+    "itemCardConfiguration": {
+      "type": "Link",
+      "config": {
+        "label": "Item card configuration",
+        "select": "document",
+        "customtypes": [
+          "item_card_configuration"
+        ]
+      }
+    }
+  },
+  "Auction Info": {
+    "auctionInfo": {
+      "type": "StructuredText",
+      "config": {
+        "label": "Additional Info",
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item"
+      }
+    },
+    "auctionTerms": {
+      "type": "StructuredText",
+      "config": {
+        "label": "Additional Terms Info",
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item"
+      }
+    }
+  }
+}

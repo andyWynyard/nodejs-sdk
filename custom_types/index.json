@@ -1,6 +1,80 @@
-[{
-  "id": "page",
-  "name": "Page",
-  "repeatable": true,
-  "value": "page.json"
-}]
+[
+  {
+    "id": "auction_calendar",
+    "name": "Auction Calendar",
+    "repeatable": false,
+    "value": "auction_calendar.json"
+  },
+  {
+    "id": "auction_catalog",
+    "name": "Auction Catalog",
+    "repeatable": false,
+    "value": "auction_catalog.json"
+  },
+  {
+    "id": "auction_item",
+    "name": "Auction Item",
+    "repeatable": false,
+    "value": "auction_item.json"
+  },
+  {
+    "id": "blog_post",
+    "name": "Blog Post",
+    "repeatable": true,
+    "value": "blog_post.json"
+  },
+  {
+    "id": "catalog",
+    "name": "Catalog",
+    "repeatable": true,
+    "value": "catalog.json"
+  },
+  {
+    "id": "customer_registration",
+    "name": "Customer Registration",
+    "repeatable": false,
+    "value": "customer_registration.json"
+  },
+  {
+    "id": "global_config",
+    "name": "Global Config",
+    "repeatable": false,
+    "value": "global_config.json"
+  },
+  {
+    "id": "item_card_configuration",
+    "name": "Item card configuration",
+    "repeatable": true,
+    "value": "item_card_configuration.json"
+  },
+  {
+    "id": "landing_page",
+    "name": "Landing Page",
+    "repeatable": false,
+    "value": "landing_page.json"
+  },
+  {
+    "id": "page",
+    "name": "Generic Page",
+    "repeatable": true,
+    "value": "page.json"
+  },
+  {
+    "id": "store_item",
+    "name": "Store Item",
+    "repeatable": false,
+    "value": "store_item.json"
+  },
+  {
+    "id": "translations",
+    "name": "Translations",
+    "repeatable": false,
+    "value": "translations.json"
+  },
+  {
+    "id": "typography",
+    "name": "Typography",
+    "repeatable": false,
+    "value": "typography.json"
+  }
+]

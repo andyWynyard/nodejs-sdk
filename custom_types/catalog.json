@@ -49,10 +49,38 @@
         "label": "Document UID"
       }
     },
-    "title": {
-      "type": "Text",
+    "itemCardConfiguration": {
+      "type": "Link",
       "config": {
-        "label": "Title"
+        "label": "Item card configuration",
+        "select": "document",
+        "customtypes": [
+          "item_card_configuration"
+        ]
+      }
+    },
+    "type": {
+      "type": "Select",
+      "config": {
+        "label": "Catalog type",
+        "options": [
+          "Auction",
+          "Store",
+          "Mixed"
+        ],
+        "default_value": "Auction"
+      }
+    },
+    "sold": {
+      "type": "Select",
+      "config": {
+        "label": "Sold type",
+        "options": [
+          "Unsold",
+          "Sold",
+          "Mixed"
+        ],
+        "default_value": "Unsold"
       }
     },
     "body": {

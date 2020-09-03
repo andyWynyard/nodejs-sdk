@@ -1,0 +1,68 @@
+{
+  "SEO": {
+    "seoTitle": {
+      "type": "Text",
+      "config": {
+        "label": "Page title"
+      }
+    },
+    "seoDescription": {
+      "type": "Text",
+      "config": {
+        "label": "Page description"
+      }
+    },
+    "seoBody": {
+      "type": "Slices",
+      "config": {
+        "choices": {
+          "metaField": {
+            "type": "Slice",
+            "fieldset": "Meta field",
+            "description": "Add addition meta info for page",
+            "icon": "search",
+            "display": "list",
+            "non-repeat": {
+              "metaName": {
+                "type": "Text",
+                "config": {
+                  "label": "Meta name"
+                }
+              },
+              "metaContent": {
+                "type": "Text",
+                "config": {
+                  "label": "Meta content"
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  },
+  "Main": {
+    "termsAndCondition": {
+      "type": "Link",
+      "config": {
+        "label": "Terms and conditions",
+        "placeholder": "Link to terms and conditions"
+      }
+    },
+    "defaultOutcome": {
+      "type": "Link",
+      "config": {
+        "label": "Default outcome",
+        "placeholder": "Link to page after successful registration"
+      }
+    },
+    "notVerifiedOutcome": {
+      "type": "Link",
+      "config": {
+        "label": "Not verified outcome",
+        "placeholder": "Link to page after pending registration"
+      }
+    }
+  }
+}

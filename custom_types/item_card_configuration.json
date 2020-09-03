@@ -1,0 +1,215 @@
+{
+  "Main": {
+    "uid": {
+      "type": "UID",
+      "config": {
+        "label": "Document UID"
+      }
+    },
+    "title": {
+      "type": "Text",
+      "config": {
+        "label": "Title"
+      }
+    },
+    "body": {
+      "type": "Slices",
+      "fieldset": "Card segments",
+      "config": {
+        "choices": {
+          "statusBar": {
+            "type": "Slice",
+            "fieldset": "Status Bar",
+            "description": "A status bar configuration for the item card",
+            "icon": "info_outline",
+            "display": "list",
+            "non-repeat": {
+              "showItemState": {
+                "type": "Select",
+                "config": {
+                  "label": "Show item state",
+                  "options": [
+                    "True",
+                    "False"
+                  ],
+                  "default_value": "True"
+                }
+              },
+              "isFloating": {
+                "type": "Select",
+                "config": {
+                  "label": "Is floating",
+                  "options": [
+                    "No",
+                    "Yes - From Top",
+                    "Yes - From Bottom"
+                  ],
+                  "default_value": "No"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "image": {
+            "type": "Slice",
+            "fieldset": "Image",
+            "description": "Image configuration of item card",
+            "icon": "image",
+            "display": "list",
+            "non-repeat": {
+              "imageFlipper": {
+                "type": "Select",
+                "config": {
+                  "label": "Allow images to be flipped in place",
+                  "options": [
+                    "False",
+                    "True"
+                  ],
+                  "default_value": "False"
+                }
+              },
+              "imageFormatting": {
+                "type": "Select",
+                "config": {
+                  "label": "Image formatting",
+                  "options": [
+                    "As is",
+                    "Cover",
+                    "Top",
+                    "Bottom",
+                    "Center"
+                  ],
+                  "default_value": "As is"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "details": {
+            "type": "Slice",
+            "fieldset": "Details",
+            "description": "Details configuration for item card",
+            "icon": "view_agenda",
+            "display": "list",
+            "non-repeat": {
+              "showCurrentBid": {
+                "type": "Select",
+                "config": {
+                  "label": "Show current bid",
+                  "options": [
+                    "True",
+                    "False"
+                  ],
+                  "default_value": "True"
+                }
+              },
+              "showCurrentBidLabel": {
+                "type": "Select",
+                "config": {
+                  "label": "Show current bid label",
+                  "options": [
+                    "True",
+                    "False"
+                  ],
+                  "default_value": "True"
+                }
+              },
+              "showNumberOfBids": {
+                "type": "Select",
+                "config": {
+                  "label": "Show number of bids",
+                  "options": [
+                    "True",
+                    "False"
+                  ],
+                  "default_value": "True"
+                }
+              },
+              "showReservePrice": {
+                "type": "Select",
+                "config": {
+                  "label": "Show reserve price",
+                  "options": [
+                    "True",
+                    "False"
+                  ],
+                  "default_value": "True"
+                }
+              },
+              "showEstimate": {
+                "type": "Select",
+                "config": {
+                  "label": "Show estimate",
+                  "options": [
+                    "True",
+                    "False"
+                  ],
+                  "default_value": "True"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "title": {
+            "type": "Slice",
+            "fieldset": "Title",
+            "description": "Title configuration for item card",
+            "icon": "format_color_text",
+            "display": "list",
+            "non-repeat": {
+              "numberOfRows": {
+                "type": "Number",
+                "config": {
+                  "label": "Number of rows"
+                }
+              },
+              "showLotNumber": {
+                "type": "Select",
+                "config": {
+                  "label": "Show lot number",
+                  "options": [
+                    "True",
+                    "False"
+                  ],
+                  "default_value": "True"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "watch": {
+            "type": "Slice",
+            "fieldset": "Watch",
+            "description": "Watch configuration for item card",
+            "icon": "stars",
+            "display": "list",
+            "non-repeat": {},
+            "repeat": {}
+          },
+          "cta": {
+            "type": "Slice",
+            "fieldset": "CTA",
+            "description": "Call to action button for item card",
+            "icon": "touch_app",
+            "display": "list",
+            "non-repeat": {
+              "isFloating": {
+                "type": "Select",
+                "config": {
+                  "label": "Is floating",
+                  "options": [
+                    "No",
+                    "Yes - From Top",
+                    "Yes - From Bottom"
+                  ],
+                  "default_value": "No"
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  }
+}

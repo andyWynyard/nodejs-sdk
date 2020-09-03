@@ -1,0 +1,2953 @@
+{
+  "Main": {
+    "title": {
+      "type": "Text",
+      "config": {
+        "label": "Title"
+      }
+    },
+    "fontWeightLight": {
+      "type": "Select",
+      "config": {
+        "label": "Override for font weight: \"light\"",
+        "options": [
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900"
+        ]
+      }
+    },
+    "fontWeightNormal": {
+      "type": "Select",
+      "config": {
+        "label": "Override for font weight: \"normal\"",
+        "options": [
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900"
+        ]
+      }
+    },
+    "fontWeightBold": {
+      "type": "Select",
+      "config": {
+        "label": "Override for font weight: \"bold\"",
+        "options": [
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900"
+        ]
+      }
+    }
+  },
+  "Big title": {
+    "bigTitle": {
+      "type": "Slices",
+      "fieldset": "Big title",
+      "config": {
+        "choices": {
+          "settings": {
+            "type": "Slice",
+            "fieldset": "Settings",
+            "description": "Default settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "tabletSettings": {
+            "type": "Slice",
+            "fieldset": "Tablet Settings",
+            "description": "Tablet settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "mobileSettings": {
+            "type": "Slice",
+            "fieldset": "Mobile Settings",
+            "description": "Mobile settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  },
+  "Small title": {
+    "smallTitle": {
+      "type": "Slices",
+      "fieldset": "Small title",
+      "config": {
+        "choices": {
+          "settings": {
+            "type": "Slice",
+            "fieldset": "Settings",
+            "description": "Default settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "tabletSettings": {
+            "type": "Slice",
+            "fieldset": "Tablet Settings",
+            "description": "Tablet settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "mobileSettings": {
+            "type": "Slice",
+            "fieldset": "Mobile Settings",
+            "description": "Mobile settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  },
+  "Heading1": {
+    "heading1": {
+      "type": "Slices",
+      "fieldset": "Heading1",
+      "config": {
+        "choices": {
+          "settings": {
+            "type": "Slice",
+            "fieldset": "Settings",
+            "description": "Default settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "tabletSettings": {
+            "type": "Slice",
+            "fieldset": "Tablet Settings",
+            "description": "Tablet settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "mobileSettings": {
+            "type": "Slice",
+            "fieldset": "Mobile Settings",
+            "description": "Mobile settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  },
+  "Heading2": {
+    "heading2": {
+      "type": "Slices",
+      "fieldset": "Heading2",
+      "config": {
+        "choices": {
+          "settings": {
+            "type": "Slice",
+            "fieldset": "Settings",
+            "description": "Default settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "tabletSettings": {
+            "type": "Slice",
+            "fieldset": "Tablet Settings",
+            "description": "Tablet settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "mobileSettings": {
+            "type": "Slice",
+            "fieldset": "Mobile Settings",
+            "description": "Mobile settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  },
+  "Quote": {
+    "quote": {
+      "type": "Slices",
+      "fieldset": "Quote",
+      "config": {
+        "choices": {
+          "settings": {
+            "type": "Slice",
+            "fieldset": "Settings",
+            "description": "Default settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "tabletSettings": {
+            "type": "Slice",
+            "fieldset": "Tablet Settings",
+            "description": "Tablet settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "mobileSettings": {
+            "type": "Slice",
+            "fieldset": "Mobile Settings",
+            "description": "Mobile settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  },
+  "Kicker": {
+    "kicker": {
+      "type": "Slices",
+      "fieldset": "Kicker",
+      "config": {
+        "choices": {
+          "settings": {
+            "type": "Slice",
+            "fieldset": "Settings",
+            "description": "Default settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "tabletSettings": {
+            "type": "Slice",
+            "fieldset": "Tablet Settings",
+            "description": "Tablet settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "mobileSettings": {
+            "type": "Slice",
+            "fieldset": "Mobile Settings",
+            "description": "Mobile settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  },
+  "Small menu": {
+    "smallMenu": {
+      "type": "Slices",
+      "fieldset": "Small menu",
+      "config": {
+        "choices": {
+          "settings": {
+            "type": "Slice",
+            "fieldset": "Settings",
+            "description": "Default settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "tabletSettings": {
+            "type": "Slice",
+            "fieldset": "Tablet Settings",
+            "description": "Tablet settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "mobileSettings": {
+            "type": "Slice",
+            "fieldset": "Mobile Settings",
+            "description": "Mobile settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  },
+  "Preamble": {
+    "preamble": {
+      "type": "Slices",
+      "fieldset": "Preamble",
+      "config": {
+        "choices": {
+          "settings": {
+            "type": "Slice",
+            "fieldset": "Settings",
+            "description": "Default settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "tabletSettings": {
+            "type": "Slice",
+            "fieldset": "Tablet Settings",
+            "description": "Tablet settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "mobileSettings": {
+            "type": "Slice",
+            "fieldset": "Mobile Settings",
+            "description": "Mobile settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  },
+  "Short text": {
+    "shortText": {
+      "type": "Slices",
+      "fieldset": "Short text",
+      "config": {
+        "choices": {
+          "settings": {
+            "type": "Slice",
+            "fieldset": "Settings",
+            "description": "Default settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "tabletSettings": {
+            "type": "Slice",
+            "fieldset": "Tablet Settings",
+            "description": "Tablet settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "mobileSettings": {
+            "type": "Slice",
+            "fieldset": "Mobile Settings",
+            "description": "Mobile settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  },
+  "Header link": {
+    "headerLink": {
+      "type": "Slices",
+      "fieldset": "Header link",
+      "config": {
+        "choices": {
+          "settings": {
+            "type": "Slice",
+            "fieldset": "Settings",
+            "description": "Default settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "tabletSettings": {
+            "type": "Slice",
+            "fieldset": "Tablet Settings",
+            "description": "Tablet settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "mobileSettings": {
+            "type": "Slice",
+            "fieldset": "Mobile Settings",
+            "description": "Mobile settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  },
+  "Body1": {
+    "body1": {
+      "type": "Slices",
+      "fieldset": "Body1",
+      "config": {
+        "choices": {
+          "settings": {
+            "type": "Slice",
+            "fieldset": "Settings",
+            "description": "Default settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "tabletSettings": {
+            "type": "Slice",
+            "fieldset": "Tablet Settings",
+            "description": "Tablet settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "mobileSettings": {
+            "type": "Slice",
+            "fieldset": "Mobile Settings",
+            "description": "Mobile settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  },
+  "Body2": {
+    "body2": {
+      "type": "Slices",
+      "fieldset": "Body2",
+      "config": {
+        "choices": {
+          "settings": {
+            "type": "Slice",
+            "fieldset": "Settings",
+            "description": "Default settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "tabletSettings": {
+            "type": "Slice",
+            "fieldset": "Tablet Settings",
+            "description": "Tablet settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "mobileSettings": {
+            "type": "Slice",
+            "fieldset": "Mobile Settings",
+            "description": "Mobile settings",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "fontFamily": {
+                "type": "Select",
+                "config": {
+                  "label": "Font family",
+                  "options": [
+                    "font-primary",
+                    "font-secondary"
+                  ]
+                }
+              },
+              "fontSize": {
+                "type": "Number",
+                "config": {
+                  "label": "Font size (px)"
+                }
+              },
+              "lineHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Line height"
+                }
+              },
+              "letterSpacing": {
+                "type": "Number",
+                "config": {
+                  "label": "Letter spacing"
+                }
+              },
+              "fontWeight": {
+                "type": "Select",
+                "config": {
+                  "label": "Font weight",
+                  "options": [
+                    "100",
+                    "200",
+                    "300",
+                    "400",
+                    "500",
+                    "600",
+                    "700",
+                    "800",
+                    "900"
+                  ]
+                }
+              },
+              "fontStyle": {
+                "type": "Select",
+                "config": {
+                  "label": "Font style",
+                  "options": [
+                    "normal",
+                    "italic"
+                  ]
+                }
+              },
+              "textTransform": {
+                "type": "Select",
+                "config": {
+                  "label": "Text transform",
+                  "options": [
+                    "none",
+                    "lowercase",
+                    "uppercase",
+                    "capitalize"
+                  ]
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  }
+}

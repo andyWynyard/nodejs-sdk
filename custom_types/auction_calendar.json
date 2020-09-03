@@ -1,0 +1,53 @@
+{
+  "SEO": {
+    "seoTitle": {
+      "type": "Text",
+      "config": {
+        "label": "Page title"
+      }
+    },
+    "seoDescription": {
+      "type": "Text",
+      "config": {
+        "label": "Page description"
+      }
+    },
+    "seoBody": {
+      "type": "Slices",
+      "config": {
+        "choices": {
+          "metaField": {
+            "type": "Slice",
+            "fieldset": "Meta field",
+            "description": "Add addition meta info for page",
+            "icon": "search",
+            "display": "list",
+            "non-repeat": {
+              "metaName": {
+                "type": "Text",
+                "config": {
+                  "label": "Meta name"
+                }
+              },
+              "metaContent": {
+                "type": "Text",
+                "config": {
+                  "label": "Meta content"
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  },
+  "Main": {
+    "title": {
+      "type": "Text",
+      "config": {
+        "label": "Title"
+      }
+    }
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "SEO": {
+    "seoTitle": {
+      "type": "Text",
+      "config": {
+        "label": "Page title"
+      }
+    },
+    "seoDescription": {
+      "type": "Text",
+      "config": {
+        "label": "Page description"
+      }
+    },
+    "seoBody": {
+      "type": "Slices",
+      "config": {
+        "choices": {
+          "metaField": {
+            "type": "Slice",
+            "fieldset": "Meta field",
+            "description": "Add addition meta info for page",
+            "icon": "search",
+            "display": "list",
+            "non-repeat": {
+              "metaName": {
+                "type": "Text",
+                "config": {
+                  "label": "Meta name"
+                }
+              },
+              "metaContent": {
+                "type": "Text",
+                "config": {
+                  "label": "Meta content"
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  },
+  "Main": {
+    "title": {
+      "type": "Text",
+      "config": {
+        "label": "Title"
+      }
+    },
+    "showHistory": {
+      "type": "Select",
+      "config": {
+        "label": "Show bid history",
+        "options": [
+          "True",
+          "False"
+        ],
+        "default_value": "True"
+      }
+    },
+    "showProvenance": {
+      "type": "Select",
+      "config": {
+        "label": "Show Provenance",
+        "options": [
+          "True",
+          "False"
+        ],
+        "default_value": "True"
+      }
+    },
+    "showShippingCategory": {
+      "type": "Select",
+      "config": {
+        "label": "Show Shipping Category",
+        "options": [
+          "True",
+          "False"
+        ],
+        "default_value": "True"
+      }
+    },
+    "showLocation": {
+      "type": "Select",
+      "config": {
+        "label": "Show Location",
+        "options": [
+          "True",
+          "False"
+        ],
+        "default_value": "True"
+      }
+    },
+    "showCondition": {
+      "type": "Select",
+      "config": {
+        "label": "Show Condition",
+        "options": [
+          "True",
+          "False"
+        ],
+        "default_value": "True"
+      }
+    },
+    "showDimension": {
+      "type": "Select",
+      "config": {
+        "label": "Show Dimension",
+        "options": [
+          "True",
+          "False"
+        ],
+        "default_value": "True"
+      }
+    },
+    "showWeight": {
+      "type": "Select",
+      "config": {
+        "label": "Show Weight",
+        "options": [
+          "True",
+          "False"
+        ],
+        "default_value": "True"
+      }
+    },
+    "showBuyersPremium": {
+      "type": "Select",
+      "config": {
+        "label": "Show Buyers Premium",
+        "options": [
+          "True",
+          "False"
+        ],
+        "default_value": "True"
+      }
+    },
+    "showVAT": {
+      "type": "Select",
+      "config": {
+        "label": "Show VAT",
+        "options": [
+          "True",
+          "False"
+        ],
+        "default_value": "True"
+      }
+    },
+    "showStraightBidButton": {
+      "type": "Select",
+      "config": {
+        "label": "Show Straight Bid Button",
+        "options": [
+          "False",
+          "True"
+        ],
+        "default_value": "False"
+      }
+    },
+    "showHammerFee": {
+      "type": "Select",
+      "config": {
+        "label": "Show Hammer Fee",
+        "options": [
+          "True",
+          "False"
+        ],
+        "default_value": "True"
+      }
+    },
+    "showNotes": {
+      "type": "Select",
+      "config": {
+        "label": "Show Notes",
+        "options": [
+          "True",
+          "False"
+        ],
+        "default_value": "True"
+      }
+    },
+    "showReservePriceMet": {
+      "type": "Select",
+      "config": {
+        "label": "Show Reserve Price Met",
+        "options": [
+          "True",
+          "False"
+        ],
+        "default_value": "True"
+      }
+    },
+    "shippingText": {
+      "type": "StructuredText",
+      "config": {
+        "label": "Shipping text",
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "placeholder": "This text explains any shipping details for auction items"
+      }
+    },
+    "feesText": {
+      "type": "StructuredText",
+      "config": {
+        "label": "Fees text",
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "placeholder": "This text explains any fees for auction items"
+      }
+    },
+    "valuationExplanation": {
+      "type": "StructuredText",
+      "config": {
+        "label": "Valuation explanation text",
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "placeholder": "This text explains the valuation for auction items"
+      }
+    },
+    "body": {
+      "type": "Slices",
+      "fieldset": "Compositions",
+      "config": {
+        "choices": {
+          "qAndA": {
+            "type": "Slice",
+            "fieldset": "Q&A",
+            "description": "Questions and answers",
+            "icon": "live_help",
+            "display": "list",
+            "non-repeat": {
+              "heading": {
+                "type": "Text",
+                "config": {
+                  "label": "Heading"
+                }
+              },
+              "sectionType": {
+                "type": "Select",
+                "config": {
+                  "label": "Section type",
+                  "options": [
+                    "Default",
+                    "Fill"
+                  ],
+                  "default_value": "Default"
+                }
+              },
+              "sectionBackgroundColor": {
+                "type": "Color",
+                "config": {
+                  "label": "Section background color"
+                }
+              },
+              "sectionBackgroundColorOpacity": {
+                "type": "Number",
+                "config": {
+                  "label": "Section background color opacity (0 - 100)"
+                }
+              },
+              "sectionBackgroundImage": {
+                "type": "Image",
+                "config": {
+                  "label": "Section background image",
+                  "thumbnails": []
+                }
+              },
+              "sectionBackgroundVideo": {
+                "type": "Link",
+                "config": {
+                  "label": "Section background video",
+                  "select": "media"
+                }
+              },
+              "sectionForegroundColor": {
+                "type": "Color",
+                "config": {
+                  "label": "Section foreground color"
+                }
+              },
+              "sectionMinHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Section minimum height"
+                }
+              }
+            },
+            "repeat": {
+              "question": {
+                "type": "Text",
+                "config": {
+                  "label": "Question"
+                }
+              },
+              "answer": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Answer",
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item"
+                }
+              }
+            }
+          },
+          "emailForm": {
+            "type": "Slice",
+            "fieldset": "Email form",
+            "description": "Allows the user to send an email to a configured email address",
+            "icon": "email",
+            "display": "list",
+            "non-repeat": {
+              "heading": {
+                "type": "Text",
+                "config": {
+                  "label": "Heading"
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Description",
+                  "single": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item"
+                }
+              },
+              "receivingEmailAddress": {
+                "type": "Select",
+                "config": {
+                  "label": "Receiving email address",
+                  "options": [
+                    "Ask A Question",
+                    "Appraisals",
+                    "Catalog Request",
+                    "ConsignWithUs"
+                  ],
+                  "default_value": "Ask A Question"
+                }
+              },
+              "subjectPrefill": {
+                "type": "Text",
+                "config": {
+                  "label": "Subject prefill"
+                }
+              },
+              "messagePrefill": {
+                "type": "Text",
+                "config": {
+                  "label": "Message prefill"
+                }
+              },
+              "sectionType": {
+                "type": "Select",
+                "config": {
+                  "label": "Section type",
+                  "options": [
+                    "Default",
+                    "Fill"
+                  ],
+                  "default_value": "Default"
+                }
+              },
+              "sectionBackgroundColor": {
+                "type": "Color",
+                "config": {
+                  "label": "Section background color"
+                }
+              },
+              "sectionBackgroundColorOpacity": {
+                "type": "Number",
+                "config": {
+                  "label": "Section background color opacity (0 - 100)"
+                }
+              },
+              "sectionBackgroundImage": {
+                "type": "Image",
+                "config": {
+                  "label": "Section background image",
+                  "thumbnails": []
+                }
+              },
+              "sectionBackgroundVideo": {
+                "type": "Link",
+                "config": {
+                  "label": "Section background video",
+                  "select": "media"
+                }
+              },
+              "sectionForegroundColor": {
+                "type": "Color",
+                "config": {
+                  "label": "Section foreground color"
+                }
+              },
+              "sectionMinHeight": {
+                "type": "Number",
+                "config": {
+                  "label": "Section minimum height"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "itemInquiry": {
+            "type": "Slice",
+            "fieldset": "Item inquiry",
+            "description": "Allows the user to request a viewing of certain item",
+            "icon": "question_answer",
+            "display": "list",
+            "non-repeat": {
+              "label": {
+                "type": "Text",
+                "config": {
+                  "label": "Label"
+                }
+              },
+              "heading": {
+                "type": "Text",
+                "config": {
+                  "label": "Heading"
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Description",
+                  "single": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item"
+                }
+              },
+              "subject": {
+                "type": "Text",
+                "config": {
+                  "label": "Subject"
+                }
+              },
+              "receivingEmailAddress": {
+                "type": "Select",
+                "config": {
+                  "label": "Receiving email address",
+                  "options": [
+                    "Ask A Question",
+                    "Appraisals",
+                    "Catalog Request",
+                    "ConsignWithUs"
+                  ],
+                  "default_value": "Ask A Question"
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  }
+}
